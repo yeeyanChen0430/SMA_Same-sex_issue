@@ -28,7 +28,7 @@ pacman::p_load(dplyr, tidytext, stringr, wordcloud2,tidyverse,knitr,kableExtra,N
   - 關鍵字：同性婚姻、同性戀、同性、同志、gay、lesbian、同婚、反同、甲甲、同性婚姻、LGBT
   - 分為文章以及留言
 ```{r}
-comments= read.csv("./comments.csv") 
+comments = read.csv("./comments.csv") 
 articles = read.csv("./articles.csv")
 ```
 ### 看一下資料
